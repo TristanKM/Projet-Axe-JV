@@ -64,7 +64,7 @@ public class control : MonoBehaviour
 
     private void OnDrawGizmos() {
         if(monColl == null) {
-            monColl = GetComponent<CapsuleCollider2D>();
+            monColl = GetComponent<PolygonCollider2D>();
         }
 
         Gizmos.color = Color.blue;
