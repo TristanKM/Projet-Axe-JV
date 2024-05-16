@@ -135,9 +135,6 @@ GameObject:
   - component: {fileID: 164631735}
   - component: {fileID: 164631734}
   - component: {fileID: 164631738}
-  - component: {fileID: 164631729}
-  - component: {fileID: 164631730}
-  - component: {fileID: 164631728}
   m_Layer: 0
   m_Name: Perso
   m_TagString: Untagged
@@ -145,46 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &164631728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164631727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0c8e0a3b14cdf44ae38b0b7f1f7070, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  jump: 3
-  deccalageGroundcheck: -0.9
---- !u!114 &164631729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164631727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9928044fa0f25448843a9a3fc86b229, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &164631730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164631727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1114b03f6454bcc48ba40e1e3b2cb818, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _startLife: 1
 --- !u!50 &164631734
 Rigidbody2D:
   serializedVersion: 4
