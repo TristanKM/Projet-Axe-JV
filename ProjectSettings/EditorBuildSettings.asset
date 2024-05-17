@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Main Menu/Main Menu.unity
+    guid: 3f1aeaaf55e73624eb1fc8b568ed852c
+  - enabled: 1
     path: Assets/Monde Coulure/Scenes/Coulure 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Monde Coulure/Scenes/Coulure 2.unity
+    guid: 28adb84fbed40e1489f255343d41a22a
+  - enabled: 1
+    path: Assets/Monde Coulure/Scenes/Coulure 3.unity
+    guid: 33d83b3899d16f84b9f37d3e5736b4dd
+  - enabled: 1
+    path: Assets/Monde Coulure/Scenes/Coulure 4.unity
+    guid: 8e751851a2da73744a929df1365b26cd
+  - enabled: 1
+    path: Assets/Monde Coulure/Scenes/Coulure 5.unity
+    guid: fbba86076f339b9459bc8160d3fbf38c
+  - enabled: 1
+    path: Assets/Monde Coulure/Scenes/Coulure 6.unity
+    guid: 1c34307e27ab4624fb35f016ba009239
   m_configObjects: {}
