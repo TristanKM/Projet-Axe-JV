@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Monde Coulure/Scenes/Coulure 6.unity
     guid: 1c34307e27ab4624fb35f016ba009239
+  - enabled: 1
+    path: Assets/Monde Futuriste/Scenes/Futuriste 1.unity
+    guid: 0f56f5b60c053b242b6c7887059dda86
+  - enabled: 1
+    path: Assets/Monde Futuriste/Scenes/Futuriste 2.unity
+    guid: 2c4e94457a0f9bc4bb821e8c1b0e6dca
+  - enabled: 1
+    path: Assets/Monde Futuriste/Scenes/Futuriste 3.unity
+    guid: 81a86a35017cd77488e13e5927201231
+  - enabled: 1
+    path: Assets/Monde Futuriste/Scenes/Futuriste 4.unity
+    guid: 4845e9f49af27d44f93e17056f7cf241
+  - enabled: 1
+    path: Assets/Monde Futuriste/Scenes/Futuriste 5.unity
+    guid: 77d9be040acd85e4ca116602ae0c74d1
   m_configObjects: {}
