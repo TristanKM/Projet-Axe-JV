@@ -57,7 +57,7 @@ public class PlayerLife : MonoBehaviour
             //GameManager.GetInstance().GameOver();
         } else
         {
-            GameManager.GetInstance().ReloadScene();
+            GameManager.GetInstance().ShowDeadMenu();
         }
     }
 }

@@ -59,6 +59,22 @@ public class GameManager : MonoBehaviour
         Debug.Log("game over");
     }
 
+    public void ShowDeadMenu()
+    {
+        Debug.Log("ShowDeadMenu");
+        if (_currentLevel >= 1 && _currentLevel <= 6)
+        {
+            SceneManager.LoadScene(20, LoadSceneMode.Additive);
+        } else if (_currentLevel >= 7 && _currentLevel <= 12)
+        {
+            SceneManager.LoadScene(21, LoadSceneMode.Additive);
+        }
+        else 
+        {
+            SceneManager.LoadScene(22, LoadSceneMode.Additive);
+        }
+    } 
+
     public void EndOfGame()
     {
 

@@ -62,4 +62,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Monde Futuriste/Scenes/Futuriste 6.unity
     guid: 8f62e3e78f6c45e4e821a3a9a6a6c1b4
+  - enabled: 1
+    path: Assets/Ecran Mort/Ecran de Fin/Ecran De Fin.unity
+    guid: fc2af3d62a28b97448063bed9ac94c9d
+  - enabled: 1
+    path: Assets/Ecran Mort/Ecran Mort Prehistorique/EcranMortPrehistoire.unity
+    guid: 3492770f348f65948b1fa3bca900f2d1
+  - enabled: 1
+    path: Assets/Ecran Mort/Ecran Mort Coulure/EcranMortCoulure.unity
+    guid: c70c70675ed84634e89dcb2e2036ea31
+  - enabled: 1
+    path: Assets/Ecran Mort/Ecran Mort Futuriste/EcranMortFuturiste.unity
+    guid: cd4ff9ce4df889d49aa0024550644506
   m_configObjects: {}
