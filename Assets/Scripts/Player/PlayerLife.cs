@@ -55,6 +55,9 @@ public class PlayerLife : MonoBehaviour
         if (_life <= 0)
         {
             //GameManager.GetInstance().GameOver();
+        } else
+        {
+            GameManager.GetInstance().ReloadScene();
         }
     }
 }

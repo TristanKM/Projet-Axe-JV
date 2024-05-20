@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class InitMenuController : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class InitMenuController : MonoBehaviour
     void QuitOnClick()
     {
         Debug.Log("quitonclick");
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 
     void Start()

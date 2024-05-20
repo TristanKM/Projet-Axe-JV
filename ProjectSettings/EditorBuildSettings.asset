@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Monde Futuriste/Scenes/Futuriste 5.unity
     guid: 77d9be040acd85e4ca116602ae0c74d1
+  - enabled: 1
+    path: Assets/Monde Futuriste/Scenes/Futuriste 6.unity
+    guid: 8f62e3e78f6c45e4e821a3a9a6a6c1b4
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 1.unity"
+    guid: d1c6d393f11dba14992d1b33b9a27bdd
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 2.unity"
+    guid: 3354ad669d670a9409fe3ae6f47f678d
   m_configObjects: {}

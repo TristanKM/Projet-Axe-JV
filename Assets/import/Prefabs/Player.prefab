@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 8198266091092075482}
   - component: {fileID: 2322646686249565814}
   - component: {fileID: 448584088742073535}
-  - component: {fileID: 1598243283942818864}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -34,8 +33,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.35, y: 0.21, z: -1}
-  m_LocalScale: {x: 0.7308, y: 0.7308, z: 0.7308}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.22, y: 0.22, z: 0.22}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -59,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 749b9069dc4742c5bfa5c74644049926, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 10190a7d99a130b43bd2165bcb5e3185, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7f5167cda95b0e748b0603e6090b2d4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,8 +122,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.33094576}
-  m_Size: {x: 0.3, y: 1.2418914}
+  m_Offset: {x: -0.038804792, y: 0.050296567}
+  m_Size: {x: 1.5690175, y: 5.0526533}
   m_Direction: 0
 --- !u!50 &807145220600539215
 Rigidbody2D:
@@ -167,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   jump: 2
-  deccalageGroundcheck: -0.8
+  deccalageGroundcheck: -0.54
 --- !u!95 &8198266091092075482
 Animator:
   serializedVersion: 5
@@ -214,17 +213,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 855dce6384fa28f48b9045a911e9d91f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1598243283942818864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5735311278373334689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e36fa1d6c0db9ea418854fe4640c186a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

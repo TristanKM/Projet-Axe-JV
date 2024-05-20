@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
             Destroy(this);
         } else if (_instance == null) {
             _instance = this;
+            _currentLevel = SceneManager.GetActiveScene().buildIndex;
             DontDestroyOnLoad(this);
         }
     }
@@ -40,6 +41,11 @@ public class GameManager : MonoBehaviour
         PlayerLife.GetInstance().Restart();
         _currentLevel = 1;
         SceneManager.LoadScene(1);
+    }
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void NextLevel()
