@@ -7026,6 +7026,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1690328083270144417, guid: 0c079d52108f3b449a44d9507374e130, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4984489568228796621, guid: 0c079d52108f3b449a44d9507374e130, type: 3}
       propertyPath: m_Name
       value: PORTE Futuriste

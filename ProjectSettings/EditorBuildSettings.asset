@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/Main Menu/Main Menu.unity
     guid: 3f1aeaaf55e73624eb1fc8b568ed852c
   - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 1.unity"
+    guid: d1c6d393f11dba14992d1b33b9a27bdd
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 2.unity"
+    guid: cb5046b5a31c4f145b5a26fa37d4fbfe
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 3.unity"
+    guid: 09e802fc01a89a64ea0e539cc88eb4e8
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 4.unity"
+    guid: a7d3d63104a932c45b6830f3e300ce23
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 5.unity"
+    guid: 3c02053dd31493641a2e4c40b2b5f259
+  - enabled: 1
+    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 6.unity"
+    guid: 84f171a2a100b9941b33248cff6a68e8
+  - enabled: 1
     path: Assets/Monde Coulure/Scenes/Coulure 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -44,10 +62,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Monde Futuriste/Scenes/Futuriste 6.unity
     guid: 8f62e3e78f6c45e4e821a3a9a6a6c1b4
-  - enabled: 1
-    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 1.unity"
-    guid: d1c6d393f11dba14992d1b33b9a27bdd
-  - enabled: 1
-    path: "Assets/Monde Pr\xE9historique/Scenes/Pr\xE9hsitoire 2.unity"
-    guid: 3354ad669d670a9409fe3ae6f47f678d
   m_configObjects: {}
