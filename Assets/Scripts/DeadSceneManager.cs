@@ -15,8 +15,15 @@ public class DeadSceneManager : MonoBehaviour
 
     void QuitOnClick()
     {
-        Debug.Log("quitonclick");
-        UnityEditor.EditorApplication.isPlaying = false;
+        #if UNITY_EDITOR
+                if (UnityEditor.EditorApplication.isPlaying == true)
+                {
+                    UnityEditor.EditorApplication.isPlaying = false;
+                }
+        #else
+                    Application.Quit();
+   
+        #endif
     }
 
     void Start()

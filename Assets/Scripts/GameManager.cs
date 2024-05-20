@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
         PlayerLife.GetInstance().Restart();
         _currentLevel = 1;
         SceneManager.LoadScene(1);
+        AudioManager.GetInstance().UpdateClip(WorldScene.Prehistorique);
     }
 
     public void ReloadScene()
@@ -51,7 +52,21 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         _currentLevel += 1;
+        if (_currentLevel == 1)
+        {
+            AudioManager.GetInstance().UpdateClip(WorldScene.Prehistorique);
+        }  else if (_currentLevel == 7)
+        {
+            AudioManager.GetInstance().UpdateClip(WorldScene.Coulure);
+        } else if (_currentLevel == 13)
+        {
+            AudioManager.GetInstance().UpdateClip(WorldScene.Futuriste);
+        } else if (_currentLevel == 19)
+        {
+            AudioManager.GetInstance().UpdateClip(WorldScene.MenuFin);
+        }
         SceneManager.LoadScene(_currentLevel);
+
     }
 
     public void GameOver()

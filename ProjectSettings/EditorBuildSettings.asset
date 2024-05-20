@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ecran Mort/Ecran Mort Futuriste/EcranMortFuturiste.unity
     guid: cd4ff9ce4df889d49aa0024550644506
+  - enabled: 1
+    path: Assets/Main Menu/CreditMenu.unity
+    guid: ff0ff48a602c29c41a941e76854df8f4
   m_configObjects: {}
